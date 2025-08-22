@@ -1,0 +1,3 @@
+//css
+agar background-image ko repeat hone se rokna hai toh , background-repeat : no repeat;
+aur agar image ko hide karna ho toh :visibility:hidden 
