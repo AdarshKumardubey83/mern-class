@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Basic Calculator</title>
+  </head>
+  <body
+    style="
+      background-color: navy;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    "
+  >
+    <div
+      style="
+        background-color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+      "
+    >
+      <h2 style="text-align: center">Calculator</h2>
+
+      <input
+        type="text"
+        style="width: 100%; padding: 10px; font-size: 18px; margin-bottom: 10px"
+        placeholder="0"
+        readonly
+      />
+
+      <div
+        style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px"
+      >
+        <button style="padding: 15px; font-size: 16px">7</button>
+        <button style="padding: 15px; font-size: 16px">8</button>
+        <button style="padding: 15px; font-size: 16px">9</button>
+        <button style="padding: 15px; font-size: 16px">/</button>
+
+        <button style="padding: 15px; font-size: 16px">4</button>
+        <button style="padding: 15px; font-size: 16px">5</button>
+        <button style="padding: 15px; font-size: 16px">6</button>
+        <button style="padding: 15px; font-size: 16px">*</button>
+
+        <button style="padding: 15px; font-size: 16px">1</button>
+        <button style="padding: 15px; font-size: 16px">2</button>
+        <button style="padding: 15px; font-size: 16px">3</button>
+        <button style="padding: 15px; font-size: 16px">-</button>
+
+        <button style="padding: 15px; font-size: 16px">0</button>
+        <button style="padding: 15px; font-size: 16px">.</button>
+        <button style="padding: 15px; font-size: 16px">=</button>
+        <button style="padding: 15px; font-size: 16px">+</button>
+      </div>
+    </div>
+  </body>
+</html>
