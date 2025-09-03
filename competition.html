@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes</title>
+    <style>
+        .outer-box {
+            width: 400px;
+            height: 400px;
+            border: 2px solid #333;
+            border-radius: 16px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: #fafafa;
+            position: relative;
+            overflow: visible;
+        }
+        .box-label {
+            font-size: 1.5rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            position: absolute;
+            top: -24px;
+            left: 25%;
+            transform: translateX(-50%);
+            background: #fafafa;
+            padding: 0 16px;
+        }
+        .circles-container {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+        }
+        .circle-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #888;
+            background: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="box-label">
+            <label for="box1">Box 1</label>
+        </div>
+        <div class="circles-container">
+            <img class="circle-img" src="https://th.bing.com/th/id/OIP.DCYPILojd7H59nzB-hM1gAHaEv?w=306&h=196&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Box 1">
+            <img class="circle-img" src="https://th.bing.com/th/id/OIP.tYOS7oxdlDRRU8OiTmPmAgHaJV?w=164&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Box 2">
+            <img class="circle-img" style="border-radius: 100%;" src="https://imgs.search.brave.com/qgwJJXQIUAWJ0xdSkLdgGbxEAC4xeqiKCbIL3cWNtsA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zdXBl/ci1oZXJvLWJlYXV0/aWZ1bC13b21hbi1m/bHlpbmctMjk3OTI0/OTEuanBn" alt="Box 3">
+        </div>
+    </div>
+</body>
+</html></div>
